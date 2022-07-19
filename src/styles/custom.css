@@ -1,0 +1,146 @@
+
+a {
+  text-decoration: none;
+  color: royalblue;
+}
+a:hover {
+  font-style: italic;
+}
+
+.upcoming-drops .drop>img  {
+  width:100px;
+  max-width:100px;
+  
+}
+.upcoming-drops .drop {
+  cursor:pointer
+}
+
+.drop-input {
+  margin-right: 150px;
+  padding-top: 15px;
+}
+.drop-img {
+  display: flex;
+  position: relative;
+  width: 120px; height:auto; min-height: 120px;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.drop-img > INPUT[type=file] {
+  position: absolute;
+  left: 0; top: 0;
+  width: 120px; height:100%;
+  opacity: 0;
+  cursor: pointer;
+}
+.drop-img > img {
+  align-self: center;
+}
+.drop-img > svg {
+  position: absolute;
+  left: 0; top: 0;
+}
+
+option {
+  font-size: 16px;
+  color: #333;
+}
+
+.required > input,
+.required > select,
+.required:hover > input,
+.required:hover > select,
+.required:active > input,
+.required:active > select {
+  border-color: #dc3545; 
+}
+
+.required > .error {
+  display: block;
+}
+
+.required > label,
+.required:hover > label,
+.required:focus > label {
+  color: #dc3545;  
+}
+
+/***=======================================================================****/
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0px 10px 20px 10px;
+}
+
+.button {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #35636e;
+  font-size: 1rem;
+  padding: 15px;
+  background-color: white;
+  border-radius: 3px;
+  border: solid 2px #35636e;
+  outline: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.button:hover {
+  color: white;
+  background-color: #35636e;
+}
+.button:active {
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Toggle B */
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #ffffff;
+}
+
+.active {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(229 231 235);
+  color: rgb(0, 0, 0);
+}

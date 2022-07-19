@@ -1,0 +1,33 @@
+{
+    "symbol": "OBJKT",
+    "name": "VII.Legends",
+    "decimals": 0,
+    "description": "Portre.",
+    "artifactUri": "ipfs://QmVY2rHbdD1LB2nnuKSNpiSwT98AANptCqzTwWFMWDAWtp",
+    "displayUri": "ipfs://QmQjhsNBBCkdtu4FN32iJmbbMSJNCWRmpen23tB5fapTJh",
+    "thumbnailUri": "ipfs://QmNrhZHUaEqxhyLfqoq1mtHSipkWHeT31LNHb1QEbDHgnc",
+    "isTransferable": true,
+    "isBooleanAmount": false,
+    "shouldPreferSymbol": false,
+    "tags": [
+      "portre",
+      "erotic",
+      "eroticart",
+      "blackandwhite",
+      "experimental",
+      "nftart",
+      "collection",
+      "legeds",
+      "woman",
+      "photography"
+    ],
+    "creators": [
+      "tz1YrMAgVNaK1rvXPx85zvCfoET9e6JyWoKt"
+    ],
+    "formats": [
+      {
+        "mimeType": "image/jpeg",
+        "uri": "ipfs://QmVY2rHbdD1LB2nnuKSNpiSwT98AANptCqzTwWFMWDAWtp"
+      }
+    ]
+  }

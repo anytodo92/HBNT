@@ -1,0 +1,11 @@
+{
+    "name":"Henbane Marketplace",
+    "description":
+    "henbane NFT marketplace contract 04-06",
+    "version":
+    "1.0.0",
+    "interfaces":
+    [
+    "TZIP-12"
+    ]
+    }
